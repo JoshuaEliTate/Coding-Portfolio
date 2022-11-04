@@ -3,32 +3,95 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
         <title>My Landing Page</title>
     </head>
 
-    <body class="grey">
-        <header class="light-grey">
-            <nav class="right-side">  
-                <ul>
-                    <li><a href="https://github.com/JoshuaEliTate?tab=repositories">Github</a></li>
-                    <li><a href="portfolio?">Portfolio</a></li>
-                    <li><a href="some-other-webpage">contact</a></li>
-                </ul>
+    <body class="white">
+        <header class="light-grey flex">
+            <figure class="flex">
+                <img src="./assets/img/IMG_2610.jpg" alt="A head picture of Josh Torres" width="100%">
+                <h1 class="box center">Josh Torres</h1>
+            </figure>
+            <nav class="spacing">
+                <a href="#about">About Me</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact Me</a>
+                <a href="#">Resume</a>
             </nav>
         </header>
-
+ 
         <main>
-            <h1 class="center large">My New Website</h1>
-                <figure>
-                    <img src="./assets/img/Coming-soon.png" alt="guy holding a coming soon sign" width="100%">
-                    <figcaption class="center">This website is under construction</figcaption>
-                </figure>
+            <section class="Portfolio">
+                <div>
+                    <h1 class="head-color">My Portfolio</h1>
+                </div>
+            </section>
+            <section class="flex black">
+                <div class="section padding" id="about">
+                    <h2 class="h2_border">About Me</h2>
+                    <div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates porro deserunt laborum nobis dignissimos incidunt maiores nihil, voluptatibus, quis eligendi atque quia commodi, expedita aliquam vel eaque ex recusandae ipsa.</p>
+                        <p>Lorem ipsum dolor sit amet consectestur adipisicing elit. Repellat provident autem vero accusamus, asperiores nulla adipisci tempora sint quidem quos ratione. Fugit quas non quaerat quam veritatis, sapiente doloribus minima? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus illum, dolorem eveniet provident optio aut, hic nihil, saepe est harum omnis ratione sint earum nostrum nesciunt voluptas! Incidunt, placeat adipisci. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore modi molestias ducimus, reprehenderit error repellat. Voluptate, unde ratione beatae quis dolorum neque quos obcaecati. Magni molestias atque ullam temporibus aliquam!</p>
+                    </div>
+                </div>
+            </section>
+                <div class="section padding" id="work">
+                    <h2 class="h2_border">Work</h2>
+                    <section class="flex">        
+                        <a href="#" class="flex-item surf-report">
+                            <div>
+                            <h3>Surf Report</h3>
+                            <span>MERN Stack</span>
+                            </div>
+                        </a>
+                        
+                        <a href="#" class="flex-item led-wall">
+                            <div>
+                            <h3>LED Wall</h3>
+                            <span>Node/IoT</span>
+                            </div>
+                        </a>
+                        <a href="#" class="flex-item react-calc">
+                            <div>
+                            <h3>Calculator</h3>
+                            <span>React/JavaScript/CSS</span>
+                            </div>
+                        </a>
+                
+                        <a href="#" class="flex-item pastel-puzzles">
+                            <div>
+                            <h3>Pastel Puzzels</h3>
+                            <span>MERN Stack</span>
+                            </div>
+                        </a>
+                
+                    
+                        <a href="#" class="flex-item run-buddy">
+                            <div>
+                            <h3>Run Buddy</h3>
+                            <span>HTML/CSS</span>
+                            </div>
+                        </a>
+                    </div>
+            </section>
+
+                </div>
+            </section>
         </main>
+
         <footer>
-            <section>
-                <h2 class="center">Contact Me</h2> 
+            <section class="grey-box section" id="contact">
+                <h2 class="center">Contact Me</h2>
+                <nav class="spacing">
+                    <a href="tel:+14252294433">425-229-4433</a>
+                    <a href="mailto:JoshuaEliTate@gmail.com">JoshuaEliTate@gmail.com</a>
+                    <a href="#contact">Github</a>
+                </nav>
             </section>
         </footer>
        
     </body>
+
+</html>
